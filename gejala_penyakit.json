@@ -1,0 +1,60 @@
+{
+  "gejala": [
+    {"id": "demam", "nama": "Demam", "deskripsi": "Suhu tubuh di atas 38°C"},
+    {"id": "batuk", "nama": "Batuk", "deskripsi": "Batuk kering atau berdahak"},
+    {"id": "pilek", "nama": "Pilek", "deskripsi": "Hidung berair atau tersumbat"},
+    {"id": "sakit_tenggorokan", "nama": "Sakit Tenggorokan", "deskripsi": "Nyeri saat menelan"},
+    {"id": "nyeri_otot", "nama": "Nyeri Otot", "deskripsi": "Nyeri pada otot seluruh tubuh"},
+    {"id": "sakit_kepala", "nama": "Sakit Kepala", "deskripsi": "Nyeri di area kepala"},
+    {"id": "lemas", "nama": "Lemas", "deskripsi": "Merasa lelah berlebihan"},
+    {"id": "bersin", "nama": "Bersin", "deskripsi": "Bersin-bersin berulang"}
+  ],
+  "aturan": [
+    {
+      "conditions": ["demam", "batuk"],
+      "conclusion": "kemungkinan_infeksi_pernapasan",
+      "bobot": 0.8
+    },
+    {
+      "conditions": ["pilek", "kemungkinan_infeksi_pernapasan"],
+      "conclusion": "kemungkinan_flu",
+      "bobot": 0.9
+    },
+    {
+      "conditions": ["sakit_tenggorokan", "pilek"],
+      "conclusion": "kemungkinan_flu_ringan",
+      "bobot": 0.7
+    },
+    {
+      "conditions": ["nyeri_otot", "sakit_kepala", "lemas"],
+      "conclusion": "kemungkinan_flu_berat",
+      "bobot": 0.85
+    },
+    {
+      "conditions": ["kemungkinan_flu"],
+      "conclusion": "saran_istirahat",
+      "bobot": 1.0
+    },
+    {
+      "conditions": ["kemungkinan_flu"],
+      "conclusion": "saran_minum_air",
+      "bobot": 1.0
+    },
+    {
+      "conditions": ["kemungkinan_flu_berat"],
+      "conclusion": "saran_konsultasi_dokter",
+      "bobot": 1.0
+    },
+    {
+      "conditions": ["kemungkinan_flu_ringan"],
+      "conclusion": "saran_obat_warung",
+      "bobot": 0.8
+    }
+  ],
+  "solusi": {
+    "saran_istirahat": "Istirahat cukup selama 7-10 hari",
+    "saran_minum_air": "Minum air putih minimal 8 gelas sehari",
+    "saran_konsultasi_dokter": "Segera konsultasi ke dokter untuk pemeriksaan lebih lanjut",
+    "saran_obat_warung": "Minum obat flu yang dijual bebas di apotek"
+  }
+}
