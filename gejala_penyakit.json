@@ -1,13 +1,19 @@
 {
   "gejala": [
-    {"id": "demam", "nama": "Demam", "deskripsi": "Suhu tubuh di atas 38°C"},
-    {"id": "batuk", "nama": "Batuk", "deskripsi": "Batuk kering atau berdahak"},
-    {"id": "pilek", "nama": "Pilek", "deskripsi": "Hidung berair atau tersumbat"},
-    {"id": "sakit_tenggorokan", "nama": "Sakit Tenggorokan", "deskripsi": "Nyeri saat menelan"},
-    {"id": "nyeri_otot", "nama": "Nyeri Otot", "deskripsi": "Nyeri pada otot seluruh tubuh"},
-    {"id": "sakit_kepala", "nama": "Sakit Kepala", "deskripsi": "Nyeri di area kepala"},
-    {"id": "lemas", "nama": "Lemas", "deskripsi": "Merasa lelah berlebihan"},
-    {"id": "bersin", "nama": "Bersin", "deskripsi": "Bersin-bersin berulang"}
+    {"id": "demam", "nama": "Demam", "deskripsi": "Suhu tubuh di atas 38°C", "kategori": "Gejala Umum"},
+    {"id": "sakit_kepala", "nama": "Sakit Kepala", "deskripsi": "Nyeri di area kepala", "kategori": "Gejala Umum"},
+    {"id": "lemas", "nama": "Lemas", "deskripsi": "Merasa lelah berlebihan", "kategori": "Gejala Umum"},
+    {"id": "nyeri_otot", "nama": "Nyeri Otot", "deskripsi": "Nyeri pada otot seluruh tubuh", "kategori": "Gejala Umum"},
+    {"id": "mengigil", "nama": "Menggigil", "deskripsi": "Sensasi dingin yang tidak terkontrol", "kategori": "Gejala Umum"},
+    
+    {"id": "batuk", "nama": "Batuk", "deskripsi": "Batuk kering atau berdahak", "kategori": "Gejala Pernapasan"},
+    {"id": "pilek", "nama": "Pilek", "deskripsi": "Hidung berair atau tersumbat", "kategori": "Gejala Pernapasan"},
+    {"id": "sakit_tenggorokan", "nama": "Sakit Tenggorokan", "deskripsi": "Nyeri saat menelan", "kategori": "Gejala Pernapasan"},
+    {"id": "bersin", "nama": "Bersin", "deskripsi": "Bersin-bersin berulang", "kategori": "Gejala Pernapasan"},
+
+    {"id": "mata_berair", "nama": "Mata Berair", "deskripsi": "Mata mengeluarkan air atau terasa perih", "kategori": "Gejala Lainnya"},
+    {"id": "sakit_perut", "nama": "Sakit Perut", "deskripsi": "Rasa tidak nyaman atau nyeri di area perut", "kategori": "Gejala Lainnya"},
+    {"id": "kehilangan_nafsu_makan", "nama": "Kehilangan Nafsu Makan", "deskripsi": "Berkurangnya keinginan untuk makan", "kategori": "Gejala Lainnya"}
   ],
   "aturan": [
     {
@@ -49,7 +55,23 @@
       "conditions": ["kemungkinan_flu_ringan"],
       "conclusion": "saran_obat_warung",
       "bobot": 0.8
+    },
+    {
+      "conditions": ["demam", "menggigil"],
+      "conclusion": "kemungkinan_flu_berat",
+      "bobot": 0.95
+    },
+    {
+      "conditions": ["mata_berair", "bersin", "lemas"],
+      "conclusion": "kemungkinan_flu_ringan",
+      "bobot": 0.8
+    },
+    {
+      "conditions": ["sakit_perut", "kehilangan_nafsu_makan"],
+      "conclusion": "kemungkinan_infeksi_pernapasan",
+      "bobot": 0.6
     }
+
   ],
   "solusi": {
     "saran_istirahat": "Istirahat cukup selama 7-10 hari",
