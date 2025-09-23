@@ -15,10 +15,10 @@ Selain itu, aplikasi kini dilengkapi dengan fitur-fitur canggih seperti filter d
   - **Manajemen Riwayat Canggih**:
       - **Pencarian**: Cari riwayat diagnosis secara dinamis berdasarkan teks.
       - **Filter**: Saring riwayat berdasarkan bulan kejadian.
-  - [cite\_start]**Ekspor Data**: Ekspor daftar riwayat diagnosis ke dalam format **CSV** untuk dianalisis di spreadsheet atau **PDF** untuk laporan formal[cite: 1, 2].
+  - **Ekspor Data**: Ekspor daftar riwayat diagnosis ke dalam format **CSV** untuk dianalisis di spreadsheet atau **PDF** untuk laporan formal.
   - **Log Inferensi Detail**: Pengguna dapat melihat proses penalaran *forward chaining* langkah demi langkah, dari fakta awal hingga kesimpulan akhir.
   - **Hasil Diagnosis Informatif**: Kesimpulan kini disajikan dengan interpretasi (misalnya, "Sangat Mungkin") dan emoji visual berdasarkan tingkat keyakinan.
-  - [cite\_start]**Basis Pengetahuan Eksternal**: Gejala dan aturan tetap disimpan dalam file `gejala_penyakit.json` yang mudah dimodifikasi[cite: 8].
+  - **Basis Pengetahuan Eksternal**: Gejala dan aturan tetap disimpan dalam file `gejala_penyakit.json` yang mudah dimodifikasi.
 
 ## Cara Menjalankan
 
@@ -44,19 +44,19 @@ Selain itu, aplikasi kini dilengkapi dengan fitur-fitur canggih seperti filter d
 Proyek ini dibagi menjadi beberapa file Python untuk memisahkan tanggung jawab:
 
   - **`main.py`**:
-    Titik masuk utama aplikasi. [cite\_start]File ini menginisialisasi kelas-kelas utama, menghubungkan semua modul, dan menjalankan *main loop* Tkinter[cite: 9].
+    Titik masuk utama aplikasi. File ini menginisialisasi kelas-kelas utama, menghubungkan semua modul, dan menjalankan *main loop* Tkinter.
 
   - **`gui_builder.py`**:
-    [cite\_start]Bertanggung jawab untuk membangun dan menata semua komponen antarmuka grafis (GUI), seperti jendela utama, tab, tombol, dan area teks[cite: 6].
+    Bertanggung jawab untuk membangun dan menata semua komponen antarmuka grafis (GUI), seperti jendela utama, tab, tombol, dan area teks.
 
   - **`file_handler.py`**:
-    [cite\_start]Mengelola semua operasi yang berkaitan dengan file, seperti memuat basis pengetahuan dari `gejala_penyakit.json` serta memuat dan menyimpan `riwayat_diagnosis.json`[cite: 7].
+    Mengelola semua operasi yang berkaitan dengan file, seperti memuat basis pengetahuan dari `gejala_penyakit.json` serta memuat dan menyimpan `riwayat_diagnosis.json`.
 
   - **`export_manager.py`**:
-    [cite\_start]Berisi logika untuk mengekspor data riwayat ke format file eksternal seperti CSV dan PDF, menggunakan pustaka `pandas` dan `reportlab`[cite: 5].
+    Berisi logika untuk mengekspor data riwayat ke format file eksternal seperti CSV dan PDF, menggunakan pustaka `pandas` dan `reportlab`.
 
   - **`gejala_penyakit.json`**:
-    [cite\_start]Berfungsi sebagai basis pengetahuan (*knowledge base*) yang berisi daftar gejala, aturan inferensi, dan solusi[cite: 8].
+    Berfungsi sebagai basis pengetahuan (*knowledge base*) yang berisi daftar gejala, aturan inferensi, dan solusi.
 
 ## Analisis dan Tabel Basis Pengetahuan
 
