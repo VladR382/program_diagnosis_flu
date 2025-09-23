@@ -1,5 +1,119 @@
 [
     {
+        "tanggal": "2025-09-23 19:07:15",
+        "gejala": [
+            "Demam",
+            "Sakit Kepala",
+            "Lemas",
+            "Batuk",
+            "Pilek",
+            "Mata Berair"
+        ],
+        "diagnosis": "Flu (90.0%), Infeksi Pernapasan (80.0%)",
+        "tingkat_keyakinan": 0.9,
+        "rekomendasi": [
+            "Istirahat cukup selama 7-10 hari",
+            "Minum air putih minimal 8 gelas sehari"
+        ]
+    },
+    {
+        "tanggal": "2025-09-23 19:02:24",
+        "gejala": [
+            "Demam",
+            "Sakit Kepala",
+            "Lemas",
+            "Batuk",
+            "Pilek",
+            "Mata Berair"
+        ],
+        "diagnosis": "Flu (90.0%), Infeksi Pernapasan (80.0%)",
+        "tingkat_keyakinan": 0.9,
+        "rekomendasi": [
+            "Istirahat cukup selama 7-10 hari",
+            "Minum air putih minimal 8 gelas sehari"
+        ]
+    },
+    {
+        "tanggal": "2025-09-23 18:57:30",
+        "gejala": [
+            "Demam",
+            "Sakit Kepala",
+            "Lemas",
+            "Batuk",
+            "Pilek",
+            "Kehilangan Nafsu Makan"
+        ],
+        "diagnosis": "Flu (90.0%), Infeksi Pernapasan (80.0%)",
+        "tingkat_keyakinan": 0.9,
+        "rekomendasi": [
+            "Istirahat cukup selama 7-10 hari",
+            "Minum air putih minimal 8 gelas sehari"
+        ]
+    },
+    {
+        "tanggal": "2025-09-23 18:57:09",
+        "gejala": [
+            "Demam",
+            "Sakit Kepala",
+            "Nyeri Otot",
+            "Batuk",
+            "Pilek",
+            "Mata Berair"
+        ],
+        "diagnosis": "Flu (90.0%), Infeksi Pernapasan (80.0%)",
+        "tingkat_keyakinan": 0.9,
+        "rekomendasi": [
+            "Istirahat cukup selama 7-10 hari",
+            "Minum air putih minimal 8 gelas sehari"
+        ]
+    },
+    {
+        "tanggal": "2025-09-23 18:57:01",
+        "gejala": [
+            "Demam",
+            "Sakit Kepala",
+            "Nyeri Otot",
+            "Batuk",
+            "Pilek",
+            "Mata Berair"
+        ],
+        "diagnosis": "Flu (90.0%), Infeksi Pernapasan (80.0%)",
+        "tingkat_keyakinan": 0.9,
+        "rekomendasi": [
+            "Istirahat cukup selama 7-10 hari",
+            "Minum air putih minimal 8 gelas sehari"
+        ]
+    },
+    {
+        "tanggal": "2025-09-23 18:15:58",
+        "gejala": [
+            "Demam",
+            "Sakit Kepala",
+            "Lemas",
+            "Batuk",
+            "Kehilangan Nafsu Makan"
+        ],
+        "diagnosis": "Infeksi Pernapasan (80.0%)",
+        "tingkat_keyakinan": 0.8,
+        "rekomendasi": []
+    },
+    {
+        "tanggal": "2025-09-23 17:55:07",
+        "gejala": [
+            "Demam",
+            "Sakit Kepala",
+            "Batuk",
+            "Pilek",
+            "Kehilangan Nafsu Makan"
+        ],
+        "diagnosis": "Infeksi Pernapasan (80.0%), Flu (90.0%)",
+        "tingkat_keyakinan": 0.9,
+        "rekomendasi": [
+            "Istirahat cukup selama 7-10 hari",
+            "Minum air putih minimal 8 gelas sehari"
+        ]
+    },
+    {
         "tanggal": "2025-09-22 22:04:03",
         "gejala": [
             "Demam",
