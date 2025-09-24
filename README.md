@@ -59,9 +59,16 @@ Proyek ini dibagi menjadi beberapa file Python untuk memisahkan tanggung jawab:
     Berfungsi sebagai basis pengetahuan (*knowledge base*) yang berisi daftar gejala, aturan inferensi, dan solusi.
 
 
-## Screnshot Tampilan Program
+## Screenshot Tampilan Program
 
+  Tampilan awal Program
   ![Tampilan Awal](https://github.com/user-attachments/assets/9447de22-2926-40c4-a188-ddaf740a40a8)
+
+  Hasil Diagnosis dan Log Inferensi
+  ![Hasil Diagnosis dan Log Inferensi](https://github.com/user-attachments/assets/374e8822-52be-4c29-946a-ec8c14f28db2)
+
+  Fitur Riwayat Diagnosis
+  ![ Fitur Riwayat Diagnosis](https://github.com/user-attachments/assets/c1458750-5c2e-4fe0-88ad-f396747dfb31)
 
 ## Analisis dan Tabel Basis Pengetahuan
 
