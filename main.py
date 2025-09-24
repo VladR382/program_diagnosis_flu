@@ -10,7 +10,7 @@ from export_manager import ExportManager
 class DiagnosisApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Sistem Pakar Diagnosis Flu - Modular Version")
+        self.root.title("Sistem Pakar Diagnosis Flu")
         self.root.geometry("900x700")
         self.root.minsize(800, 600)
 
@@ -229,4 +229,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = DiagnosisApp(root)
     root.mainloop()
+
     print("👋 Aplikasi ditutup. Terima kasih!")
