@@ -61,9 +61,7 @@ Proyek ini dibagi menjadi beberapa file Python untuk memisahkan tanggung jawab:
 
 ## Screnshot Tampilan Program
 
-    ![Backend and Cloud Architecture](https://github.com/user-attachments/assets/2cbad4c6-6407-4993-af50-8f606adfa6e2)
-
-    ![Tampilan Awal](https://github.com/user-attachments/assets/9447de22-2926-40c4-a188-ddaf740a40a8)
+  ![Tampilan Awal](https://github.com/user-attachments/assets/9447de22-2926-40c4-a188-ddaf740a40a8)
 
 ## Analisis dan Tabel Basis Pengetahuan
 
