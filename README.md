@@ -58,6 +58,11 @@ Proyek ini dibagi menjadi beberapa file Python untuk memisahkan tanggung jawab:
   - **`gejala_penyakit.json`**:
     Berfungsi sebagai basis pengetahuan (*knowledge base*) yang berisi daftar gejala, aturan inferensi, dan solusi.
 
+
+## Screnshot Tampilan Program
+
+    ![Tampilan Utama]<img width="1915" height="1075" alt="Screenshot 2025-09-24 185527" src="https://github.com/user-attachments/assets/9447de22-2926-40c4-a188-ddaf740a40a8" />
+
 ## Analisis dan Tabel Basis Pengetahuan
 
 Berikut adalah rincian lengkap dari seluruh gejala dan kesimpulan yang digunakan oleh sistem pakar ini.
