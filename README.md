@@ -1,6 +1,6 @@
 # Sistem Pakar Diagnosis Flu 
 
-Sebuah aplikasi desktop modular yang dibangun dengan Python dan Tkinter untuk mendiagnosis kemungkinan penyakit flu. Proyek ini menerapkan arsitektur *Object-Oriented Programming* (OOP) dan menggunakan sistem pakar berbasis aturan (*rule-based*) dengan metode penalaran *forward chaining* untuk memberikan diagnosis yang informatif.
+Sebuah aplikasi desktop yang dibangun dengan Python dan Tkinter untuk mendiagnosis kemungkinan penyakit flu. Proyek ini menerapkan arsitektur *Object-Oriented Programming* (OOP) dan menggunakan sistem pakar berbasis aturan (*rule-based*) dengan metode penalaran *forward chaining* untuk memberikan diagnosis yang informatif.
 
 ## Deskripsi
 
