@@ -61,7 +61,7 @@ Proyek ini dibagi menjadi beberapa file Python untuk memisahkan tanggung jawab:
 
 ## Screnshot Tampilan Program
 
-    ![Tampilan Utama]<img width="1915" height="1075" alt="Screenshot 2025-09-24 185527" src="https://github.com/user-attachments/assets/9447de22-2926-40c4-a188-ddaf740a40a8" />
+    <img width="1915" height="1075" alt="Screenshot 2025-09-24 185527" src="https://github.com/user-attachments/assets/9447de22-2926-40c4-a188-ddaf740a40a8" />
 
 ## Analisis dan Tabel Basis Pengetahuan
 
