@@ -4,7 +4,7 @@ Sebuah aplikasi desktop yang dibangun dengan Python dan Tkinter untuk mendiagnos
 
 ## Deskripsi
 
-Versi kedua dari aplikasi ini telah dirancang ulang sepenuhnya dengan memisahkan logika utama ke dalam modul-modul spesifik: antarmuka (GUI), manajemen file, logika diagnosis, dan fungsionalitas ekspor. Pengguna dapat memilih gejala yang mereka alami, dan sistem akan menjalankan proses inferensi untuk menghasilkan diagnosis, tingkat keyakinan, serta rekomendasi penanganan yang detail.
+Aplikasi ini telah dirancang ulang sepenuhnya dengan memisahkan logika utama ke dalam modul-modul spesifik: antarmuka (GUI), manajemen file, logika diagnosis, dan fungsionalitas ekspor. Pengguna dapat memilih gejala yang mereka alami, dan sistem akan menjalankan proses inferensi untuk menghasilkan diagnosis, tingkat keyakinan, serta rekomendasi penanganan yang detail.
 
 Selain itu, aplikasi kini dilengkapi dengan fitur-fitur canggih seperti filter dan pencarian riwayat, serta kemampuan untuk mengekspor data diagnosis ke format CSV dan PDF.
 
